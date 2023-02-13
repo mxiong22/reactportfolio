@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 20px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+
+.Navbar-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.Navbar-list li {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.Navbar-heading {
+  font-size: 32px;
+  color: skyblue;
+}
+
+.Hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-para {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-para span {
+  font-size: 50px;
+  color: skyblue;
+}
+
+.hero-img {
+  height: 800px;
+}
+
+.projects-heading {
+  font-size: 50px;
+  text-align: center;
+  color: skyblue;
+}
+
+.projects-section {
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.project-img {
+  height: 300px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-btn {
+  padding: 10px 14px;
+  background-color: purple;
+  color: white;
+}
+
+.project-title {
+  font-size: 30px;
+}
+
+.project-description {
+  margin: 20px 0;
+}
+
+.resume-heading {
+  font-size: 36px;
+  text-align: center;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.resume-para {
+}
+
+.resume-btn {
+  padding: 10px 14px;
+  background-color: purple;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .Navbar-list {
+    display: none;
+  }
+  .hero-img {
+    height: 300px;
+  }
+}
