@@ -10,7 +10,7 @@
     title: "Power Trip",
     description: "This was my second group project and used these technologies",
     technologies: ["HTML", "CSS", "Bootstrap", "Cloudify", "Javasccript"],
-    image: "./Food-Fast-project.png",
+    image: "./power-trip-project.jpg"
   },
   
 ];

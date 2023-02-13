@@ -4,7 +4,7 @@ import { projectsData } from "./data";
 const Projects = () => {
   console.log(projectsData);
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h2 className="projects-heading">Projects</h2>
       {projectsData.map((projectValue) => (
         <div className="projects-section">

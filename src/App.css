@@ -22,6 +22,11 @@ body {
   list-style-type: none;
 }
 
+.Navbar-list a {
+  text-decoration: none;
+  color: white;
+}
+
 .Navbar-list li {
   margin: 0 10px;
   font-size: 20px;
@@ -44,6 +49,7 @@ body {
   font-size: 15px;
   display: flex;
   flex-direction: column;
+  width: 600px;
 }
 
 .hero-para span {
@@ -52,7 +58,8 @@ body {
 }
 
 .hero-img {
-  height: 800px;
+  height: 700px;
+  margin: 30px;
 }
 
 .projects-heading {
@@ -71,6 +78,8 @@ body {
 
 .project-img {
   height: 300px;
+  width: 400px;
+  object-fit: contain;
 }
 
 .projects {
@@ -82,6 +91,7 @@ body {
   padding: 10px 14px;
   background-color: purple;
   color: white;
+  margin: 10px;
 }
 
 .project-title {
@@ -118,6 +128,12 @@ body {
   color: white;
 }
 
+.resume-icon {
+display: flex;
+justify-content: center;
+}
+
+
 @media only screen and (max-width: 900px) {
   .Navbar-list {
     display: none;
@@ -125,4 +141,15 @@ body {
   .hero-img {
     height: 300px;
   }
+  .projects-section {
+    flex-direction: column;
+  }
+  .hero-img {
+  margin: auto;
+}
+.Hero-right{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 }

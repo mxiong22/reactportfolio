@@ -15,6 +15,14 @@ const Resume = () => {
           <button className="resume-btn">Download Resume</button>
         </a>
       </div>
+      <div className="resume-icon">
+        <a href="https://github.com/mxiong22" target="_blank"> 
+          <img
+            src="https://usmanasif961507868.files.wordpress.com/2021/08/github.png"
+            alt=""
+          />
+        </a>
+      </div>
     </div>
   );
 };
